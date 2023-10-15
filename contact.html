@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+ 
+</head>
+<body style=" font-family: Arial, sans-serif;
+background-color: #f0f0f0;">
+    <header>
+        <h1 style=" text-align: center;">Contact Us</h1>
+    </header>
+    <nav style="text-align:center; background-color: gray;" >
+        <a style="text-align: center; color: #fff;"  href="index.html">Home</a>
+        <a style="text-align: center; color: #fff;"  href="stories.html">Stories</a>
+        <a style="text-align: center; color: #fff;"  href="destinations.html">Destinations</a>
+        <a style="text-align: center; color: #fff;"  href="photos.html">Photos</a>
+        <a  style="text-align:center; color: #fff; "  href="contact.html">Contact</a>
+
+    </nav>
+    <div style=" background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;">
+
+        <div style="margin-top: 20px;">
+            <form action="process_contact_form.php" method="post">
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block;" for="name">Name</label>
+                    <input style="  width: 80%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;" type="text" id="name" name="name" required>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block;" for="email">Email</label>
+                    <input style="  width: 80%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;" type="email" id="email" name="email" required>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block;" for="subject">Subject</label>
+                    <input style="  width: 80%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;" type="text" id="subject" name="subject" required>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block;" for="message">Message</label>
+                    <textarea style="  width: 80%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <button style="  background-color: #007bff;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a style="text-align: center"  href="mailto:your@email.com">ahsenm267@email.com</a></p>
+        </div>
+
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <a style="text-align: center;"  href="https://www.facebook.com/malik.ahsan.3785373" target="_blank">Facebook</a> |
+            <a style="text-align:  center;"  href="https://twitter.com/ImAhsen_" target="_blank">Twitter</a> |
+            <a style="text-align:  center;"  href="https://www.instagram.com/m.ahsen_9/" target="_blank">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
